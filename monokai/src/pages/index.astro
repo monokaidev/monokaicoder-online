@@ -6,7 +6,87 @@ import Card from '../components/Card.astro';
 
 <head>
   <title>Viper U Executor</title>
-  
-  <h1>Test</h1>>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .embed {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      opacity: 0;
+      transform: translateY(-50px);
+      animation: fadeInUp 1s forwards;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .download-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff9900;
+      color: #fff;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Viper U Executor</h1>
+    <h2>Version : 1.1</h2>
+     <h3>Requirements are in the discord (dsc.gg/dnastuff)</h3>
+  </header>
+
+  <div class="container">
+    <div class="embed">
+      <h2>Executor Information</h2>
+      <p>
+        Viper U is a powerful Roblox executor packed with advanced features. It allows you to execute scripts, inject DLLs, and manipulate the game environment with ease.
+      </p>
+      <p>
+        With Viper U, you can gain an unfair advantage in Roblox games, dominate your opponents, and unlock hidden features. It's the ultimate tool for Roblox power users.
+      </p>
+       <p>
+        With our strong (not flux never nuh uh) bytecode injection, you will be the best!
+      </p>
+      <p>
+        Also check out: Zerolag
+      </p>
+    </div>
+    
+    <a class="download-button" href="https://gofile.io/d/laMYZk">Download Viper U Executor (V 1.1 FIX 1)</a>
+  </div>
 </body>
 </html>
